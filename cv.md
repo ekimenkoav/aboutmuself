@@ -1,89 +1,47 @@
----
-layout: cv
-title: Isaac Newtons's CV
----
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+## Несколько слов о себе
+### Екименко Антон Валерьевич 
 
+#### Профессиональный опыт
 
-## Currently
-
-Standing on the shoulders of giants
-
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
-
-## Education
-
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+|  |  | |
+| ------ | ----------- | ---- |
+| 2001-2003   | ТНГ-Групп | рабочий полевой партии  |
+| 2006-2008 | ОАО «Нарьян-Марсейсморазведка» |геофизик|
+| 2008-2010    | ОАО «Нарьян-Марсейсморазведка» |геофизик 2-й категории|
+| 2010-2011    | ОАО «Нарьян-Марсейсморазведка» |ведущий геофизик|
 
 
 
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
+_Работа на месторождениях Тимано-Печорской провинции: Харьягинское, Сарутаюское, Седьягинское. Последовательно участвовал в обработке материалов 2Д и 3Д сейсморазведки, выполнял структурную интерпретацию, выполнял работы по акустической и синхронной инверсии, анализу сейсмических атрибутов, готовил соответствующие главы отчётов._
 
 
 
-## Publications
+|   |   |   |
+| ------ | ----------- | ---- |
+|2011 - 2012| Газпромнефть НТЦ| ведущий специалист| 
+|2015 - 2018| Газпромнефть НТЦ| главный специалист|
+|2018-2020| Газпромнефть НТЦ| руководитель направления по анализу сейсмических данных| 
+|2020 |Газпромнефть НТЦ| эксперт|
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+_Работа на проектах Западной Сибири (Вынгапуровское, Новогоднее, Ярайнерское, Спорышевское месторождения), на месторождениях Оренбургской области (Оренбургское, Балейкинское, Царичанское).
+Участвовал в проектах по созданию концептуальных геологических моделей, подготовке материалов к подсчету запасов и представлению в ГКЗ. Сопровождение работ подрядных организаций по обработке и интерпретации данных СРР и ВСП.
+Участие в технологических проектах: методика 3ДВСП (совместно с БНГФ), азимутальная миграция ES 360 (совместно с PTG), моделирование волновых полей трещиноватых сред (совместно с МФТИ)
+Участие в рабочих группах по оценке ресурсов и геологических рисков лицензионных участков на юге Оренбургской области
+Участие в комнатах данных по представлению, анализу, обсуждению материалов сейсморазведки потенциальным партнёрам_
 
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+## Профессиональные навыки
+* Кинематическая интерпретация данных 
+    * прослеживание отражающих горизонтов 
+    * привязка сейсмического разреза к акустической модели скважины 
+    * построение скоростной модели среды 
+    * построение структурных карт 
+    * опыт работы с ПО SeisEarth (Paradigm Geophysical), Petrel (Schlumberger)
+* Динамическая интерпретация сейсмических данных:  
+    * калибровка сейсмических и скважинных данных,  
+    * расчет атрибутов AVO,  
+    * выполнение сейсмической инверсии.  
+    * интерпретация результатов инверсии и AVO анализа 
+    * имею опыт работы с ПО Vanguard, Probe (Paradigm Geophysical), STRATA, AVO (Hampson-Russel) 
+* Сопровождение обработки и интерпретации данных наземной СРР и ВСП
+* Обработка сейсмических данных. Имею опыт работы с ПО Echos (Paradigm Geophysical) 

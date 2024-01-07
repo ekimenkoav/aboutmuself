@@ -101,4 +101,4 @@ b.	Выполнить расчёты сейсмических разрезов, 
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-[Link to another page](./cvtest.html).
+[Link to another page](./cv.html).
