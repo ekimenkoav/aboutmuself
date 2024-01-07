@@ -97,8 +97,10 @@ b.	Выполнить расчёты сейсмических разрезов, 
 *ссылки для подготвки материала*
 
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+```
+Представленые материалы не являются сектреными, но при их использовании необходима ссылка на эту страницу
+ 
+```
+
 
 [Link to another page](./cv.md).
