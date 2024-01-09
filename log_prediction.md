@@ -1,4 +1,3 @@
-```
 # Восстановление значений акустического каротажа по имеющимся кривым ГИС
 
 ## 1. Описание задачи
@@ -68,7 +67,7 @@ fNGK[x_] := -27.797*Log[x - 1.57585] + 202.99
 ```mathematica
 
   Show[
-   ListPlot[logData[[2 ;; ;; 10, {4, 2}]], PlotRange -> {{0, 10}, {120, 350}}, PlotStyle -> Blue, Frame -> True], 
+   ListPlot[logData[[2 ;; ;; 10, {4, 2}]], PlotRange -> { {0, 10}, {120, 350} }, PlotStyle -> Blue, Frame -> True], 
    Plot[fNGK[x], {x, 0, 10}, PlotStyle -> Red, PlotRange -> {{0, 10}, {120, 350}}] 
   ]
 ```
@@ -128,12 +127,12 @@ TableForm[logData[[2 ;; 10]], TableHeadings -> {None, logData[[1]]}]
 Встроенная функция **Predict** является основным инструментом для прогнозирования с использованием всех методов машинного обучения: 
 
 **"DecisionTree"** 			predict using a decision tree
-**"GradientBoostedTrees"	**predict using an ensemble of trees trained with gradient boosting
-**"LinearRegression"****		**predict from linear combinations of features
-**"NearestNeighbors"		**predict from nearest neighboring examples
-**"NeuralNetwork"****	** 		predict using an artificial neural network
-"**RandomForest"****			**predict from Breiman\[Dash]Cutler ensembles of decision trees
-**"GaussianProcess"		**predict using a Gaussian process prior over functions
+**"GradientBoostedTrees"**	predict using an ensemble of trees trained with gradient boosting
+**"LinearRegression"**		predict from linear combinations of features
+**"NearestNeighbors"**		predict from nearest neighboring examples
+**"NeuralNetwork"**			predict using an artificial neural network
+"**RandomForest"**			predict from Breiman\[Dash]Cutler ensembles of decision trees
+**"GaussianProcess"**		predict using a Gaussian process prior over functions
 
 ### Обучающая выборка
 
@@ -240,7 +239,3 @@ Show[ListLinePlot[logdataControl[[2 ;; -500, {1, 2}]], PlotStyle -> Black, PlotR
 Show[ListLinePlot[logdataControl[[2 ;; -500, {1, 2}]], PlotStyle -> Black, PlotRange -> {All, {120, 350}}, AspectRatio -> 1/6, ImageSize -> 700], ListLinePlot[Transpose[{logDataTest[[2 ;; -500, 1]], dtTestNN[[1 ;; -500]]}], PlotStyle -> Magenta, PlotRange -> {All, {120, 350}}], PlotLabel -> StringJoin["DT by Neural Network is ", ToString[errorRmsNN], " ms"], LabelStyle -> Directive[Bold, Orange]]
 ```
 
-```mathematica
-
-```
-```
