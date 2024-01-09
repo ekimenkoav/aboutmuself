@@ -67,8 +67,8 @@ fNGK[x_] := -27.797*Log[x - 1.57585] + 202.99
 ```mathematica
 
   Show[
-   ListPlot[logData[[2 ;; ;; 10, {4, 2}]], PlotRange -> { {0, 10}, {120, 350} }, PlotStyle -> Blue, Frame -> True], 
-   Plot[fNGK[x], {x, 0, 10}, PlotStyle -> Red, PlotRange -> { {0, 10}, {120, 350} }] 
+   ListPlot[logData[[2 ;; ;; 10, {4, 2}]], PlotRange -> , PlotStyle -> Blue, Frame -> True], 
+   Plot[fNGK[x], {x, 0, 10}, PlotStyle -> Red, PlotRange -> ] 
   ]
 ```
 
