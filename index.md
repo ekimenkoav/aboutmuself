@@ -51,7 +51,7 @@ layout: default
 привязку, сопоставить скорости._
 
 ***
-[пример решения](./dt_prediction_11PO_.html).
+[пример решения](./linearinversion.html).
 
 ***
 
