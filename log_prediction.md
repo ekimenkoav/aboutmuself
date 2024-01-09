@@ -68,7 +68,7 @@ fNGK[x_] := -27.797*Log[x - 1.57585] + 202.99
 
   Show[
    ListPlot[logData[[2 ;; ;; 10, {4, 2}]], PlotRange -> { {0, 10}, {120, 350} }, PlotStyle -> Blue, Frame -> True], 
-   Plot[fNGK[x], {x, 0, 10}, PlotStyle -> Red, PlotRange -> {{0, 10}, {120, 350}}] 
+   Plot[fNGK[x], {x, 0, 10}, PlotStyle -> Red, PlotRange -> { {0, 10}, {120, 350} }] 
   ]
 ```
 
@@ -83,11 +83,9 @@ Show[ListLinePlot[logData[[2 ;;, {1, 2}]], PlotStyle -> Black, PlotRange -> {All
 ### Формула Фауста. Зависимость АК и каротажа сопротивлений
 
 DT =a*$(R)^b$, 
-
 DT - 		время пробега 
 R - 		сопротивления
-a, b -		параметры модели, которые нужно оценить
-
+a,b-	параметры модели, которые нужно оценить
 ```mathematica
 Clear[a, b]
 FindFit[logData[[2 ;;, {1, 5, 2}]], a*(x*y)^b, {a, b}, {x, y}]
