@@ -51,7 +51,7 @@ layout: default
 привязку, сопоставить скорости._
 
 
-[пример решения](https://github.com/ekimenkoav/aboutmyself/blob/main/dt_prediction_11PO_.html).
+[пример решения](./dt_prediction_11PO_.html).
 
 
 
