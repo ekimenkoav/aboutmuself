@@ -43,18 +43,16 @@ layout: default
 
 7. Привязка сейсмических горизонтов.
 
-[краткая информация](./cv.md) 
 
-Одномерное моделирование [пример решения](https://github.com/ekimenkoav/aboutmyself/blob/main/dt_prediction_11PO_.md). _Задача:
+Одномерное моделирование  _Задача:
 рассчитать кривые акустической жёсткости к-в отражения с
 использованием эмпирических формул для расчета скорости (ф-ла
 Гарднера, ф-ла Фауста), рассчитать синтетическую трассу, выполнить
 привязку, сопоставить скорости._
 
 
-    * [пример решения](https://github.com/ekimenkoav/aboutmyself/blob/main/dt_prediction_11PO_.md)
+[пример решения](https://github.com/ekimenkoav/aboutmyself/blob/main/dt_prediction_11PO_.html).
 
-[ноутбук Wolfram Language](./dt_prediction_11PO_.nb)
 
 
 
