@@ -98,8 +98,8 @@ FindFit[logData[[2 ;;, {1, 5, 2}]], a*(x*y)^b, {a, b}, {x, y}]
 
 ```mathematica
 Show[
-  ListPlot[logData[[2 ;; ;; 10, {5, 2}]], PlotRange -> {{0, 250}, {120, 350}}, PlotStyle -> Blue, Frame -> True], 
-  Plot[fR[x], {x, 0, 250}, PlotStyle -> Red, PlotRange -> {{0, 250}, {120, 350}}] 
+  ListPlot[logData[[2 ;; ;; 10, {5, 2}]], PlotRange -> , PlotStyle -> Blue, Frame -> True], 
+  Plot[fR[x], {x, 0, 250}, PlotStyle -> Red, PlotRange ->] 
  ]
 ```
 
@@ -108,7 +108,7 @@ dtFaust = Map[fR, logData[[2 ;;, {1, 5}]]]
 ```
 
 ```mathematica
-Show[ListLinePlot[logData[[2 ;;, {1, 2}]], PlotStyle -> Black, PlotRange -> {All, {120, 350}}, AspectRatio -> 1/6, ImageSize -> 700], ListLinePlot[Transpose[{logData[[2 ;;, 1]], dtFaust}], PlotStyle -> Red, PlotRange -> {All, {120, 350}}], PlotLabel -> "DT by Faust", LabelStyle -> Directive[Bold, Orange]]
+Show[ListLinePlot[logData[[2 ;;, {1, 2}]], PlotStyle -> Black, PlotRange -> , AspectRatio -> 1/6, ImageSize -> 700], ListLinePlot[Transpose[{logData[[2 ;;, 1]], dtFaust}], PlotStyle -> Red, PlotRange -> {All, {120, 350}}], PlotLabel -> "DT by Faust", LabelStyle -> Directive[Bold, Orange]]
 ```
 
 ## Методы машинного обучения
