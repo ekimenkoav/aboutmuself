@@ -84,7 +84,7 @@ errors = Table[
 ```
 
 ```mathematica
-TableForm[Round[{StandardDeviation[errors[[All, 1]]], StandardDeviation[errors[[All, 1]] - errors[[All, 2]]]}, 0.1], TableHeadings -> {{"RMS error initial", "RMS error cross"}, None}]
+TableForm[Round[{StandardDeviation[errors[[All, 1]]], StandardDeviation[errors[[All, 1]] - errors[[All, 2]]]}, 0.1], TableHeadings -> ]
 ```
 
 ![сопоставление стандарных отклонений]((crossval\img\cv04.png))
