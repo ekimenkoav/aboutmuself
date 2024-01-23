@@ -1,4 +1,4 @@
-[back to top](./index.html).
+[back to top](https://ekimenkoav.github.io/aboutmyself).
 
 #  Практическое занятие. Координатные системы.
 ## Расчёт прямоугольных координат
