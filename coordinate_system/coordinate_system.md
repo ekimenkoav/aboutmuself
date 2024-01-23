@@ -19,11 +19,10 @@
 * Загрузить текстовые файлы east_wells_wgs84_40 и east_wells_wgs84_39 some text 
 
 
-[file](./download/east_wells_wgs84_40.txt)
+[file](https://ekimenkoav.github.io/aboutmyself/download/east_wells_wgs84_40.txt)
 
 * Создать новый проект в ПО **тНавигатор**
 * Описать координатную систему проекта, выбрав в каталоге координат WGS84 / UTM zone40 
 ![описание координатной системы проекта в тНавигатор](img\cs1.png)
 
 * В контейнер **Наборы точек** импортировать файлы east_wells_wgs84_40 и east_wells_wgs84_39.
-[]:{{ https://ekimenkoav.github.io/aboutmyself/download/east_wells_wgs84_39.txt }}
