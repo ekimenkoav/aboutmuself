@@ -1,3 +1,5 @@
+[back to top](./index.html).
+
 #  Практическое занятие. Координатные системы.
 ## Расчёт прямоугольных координат
 Необходимо вычислить прямоугольные координаты г. Санкт-Петербурга
@@ -14,8 +16,9 @@
 После загрузки обратите внимание что в наборах точек есть совпадающие
 скважины
 ### Порядок действий
-* Загрузить текстовые файлы east_wells_wgs84_40 и east_wells_wgs84_39 some text and 
-[1]:{{ https://ekimenkoav.github.io/aboutmyself/ }}/download/file.pdf
+* Загрузить текстовые файлы east_wells_wgs84_40 и east_wells_wgs84_39 some text 
+[here is possible to download the file in PDF][1]
+[1]:{{ site.url }}/download/file.pdf
 
 
 * Создать новый проект в ПО **тНавигатор**
@@ -23,3 +26,4 @@
 ![описание координатной системы проекта в тНавигатор](img\cs1.png)
 
 * В контейнер **Наборы точек** импортировать файлы east_wells_wgs84_40 и east_wells_wgs84_39.
+[]:{{ https://ekimenkoav.github.io/aboutmyself/ }}/download/east_wells_wgs84_39.txt
