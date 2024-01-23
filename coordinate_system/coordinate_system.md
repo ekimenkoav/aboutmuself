@@ -18,8 +18,7 @@
 ### Порядок действий
 * Загрузить текстовые файлы east_wells_wgs84_40 и east_wells_wgs84_39 some text 
 
-
-[file](https://ekimenkoav.github.io/aboutmyself/download/east_wells_wgs84_40.txt)
+[file](https://ekimenkoav.github.io/aboutmyself/download/wells_coordinates.zip)
 
 * Создать новый проект в ПО **тНавигатор**
 * Описать координатную систему проекта, выбрав в каталоге координат WGS84 / UTM zone40 
