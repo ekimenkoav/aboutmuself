@@ -1,7 +1,7 @@
 [back to top](https://ekimenkoav.github.io/aboutmyself/index.html).
 
 # Кроссвалидация при оценке погрешности структурных построений 
-[Этот же материал в формате ноутбука Wolfram Mathematica](https://ekimenkoav.github.io/aboutmyself/download/crossvalidation_lecture_notes.zip
+[Этот же материал в формате ноутбука Wolfram Mathematica](https://ekimenkoav.github.io/aboutmyself/download/crossvalidation_lecture_notes.zip)
 
 ***
 **Введение**
