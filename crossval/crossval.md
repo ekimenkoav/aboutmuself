@@ -1,7 +1,7 @@
 [back to top](./index.html).
 
 # Кроссвалидация при оценке погрешности структурных построений 
-
+[Этот же материал в формате ноутбука Wolfram Mathematica](https://ekimenkoav.github.io/aboutmyself/download/crossvalidation_lecture_notes.nb
 
 ***
 **Введение**
@@ -32,7 +32,7 @@
 ResourceFunction["PolyharmonicSplineInterpolation"]
 ```
 
-**Случай некоррелированных ошибок**
+### Случай некоррелированных ошибок
 
 #### Подготовка данных
 
@@ -53,7 +53,7 @@ Histogram[xyz[[All, 3]], {-70, 70, 10}, Frame -> True, ImageSize -> 400, PlotLab
 
 ![гистограмма невязок](img\cv02_.png)
 
-#### Кроссвалидация
+
 
 Сначала выполним  интерполяцию, восстановим значения в каждой точке площади и отобразим их на графике.
 
@@ -69,6 +69,8 @@ Show[
 ```
 
 ![результат интерполяции](img\cv03_.png)
+
+#### Кроссвалидация
 
 Следующий фрагмент кода выполняет собственно кроссвалидацию.
 С помощью функции Table выполняется цикл, в котором итератор  задан от 1 до 50 (Length[xyz]).На каждом шаге исключается проверочная скважина, строится функция интерполяции, восстанавливается значение в проверочной точке. 
@@ -97,7 +99,7 @@ TableForm[Round[{StandardDeviation[errors[[All, 1]]], StandardDeviation[errors[[
 
 Выведенная таблица  показывает схожий уровень стандарных отклонений. Т.е. нужно сделать вывод, что в случае невязок заданных случайно оценки по обоим способам дают схожий результат.
 
-**Случай коррелированных ошибок**
+### Случай коррелированных ошибок
 
 #### Подготовка данных. Моделирование случайных гауссовых полей.
 
@@ -204,8 +206,10 @@ errorsGauss = Table[
 **Ссылки**
 
 
-[Методические рекомендации по использованию данных сейсморазведки (2D, 3D) для подсчета запасов нефти и газа](https://www.geokniga.org/books/12513)
+1. [Методические рекомендации по использованию данных сейсморазведки (2D, 3D) для подсчета запасов нефти и газа](https://www.geokniga.org/books/12513)
 
-[Репозиторий пользовательский функций Wolfram](https://resources.wolframcloud.com/FunctionRepository/)
-[Детальное описание эффективного алгоритма моделирования случайных гауссовых полей](https://garrettgoon.com/gaussian-fields/)
-[Обсуждение на stackexchange случайных гауссовых полей](https://mathematica.stackexchange.com/questions/4829/efficiently-generating-n-d-gaussian-random-fields)
+2. [Репозиторий пользовательский функций Wolfram](https://resources.wolframcloud.com/FunctionRepository/)
+
+3. [Детальное описание эффективного алгоритма моделирования случайных гауссовых полей](https://garrettgoon.com/gaussian-fields/)
+
+4. [Обсуждение на stackexchange случайных гауссовых полей](https://mathematica.stackexchange.com/questions/4829/efficiently-generating-n-d-gaussian-random-fields)
