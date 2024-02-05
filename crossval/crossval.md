@@ -134,7 +134,7 @@ MatrixPlot[dataRandomField]
 ```mathematica
 currentsigma = StandardDeviation[Flatten[dataRandomField]];
 coefSigma = sigma/currentsigma;
-dataRandomFieldFunction = ListInterpolation[Transpose[Reverse[coefSigma*dataRandomField]], {{1, 100}, {1, 100}}];
+dataRandomFieldFunction = ListInterpolation[Transpose[Reverse[coefSigma*dataRandomField]]]; (*нужно также указать диапазон интерполяции*)
 ```
 
 Получим значения невязок в точках скважин
